@@ -1,0 +1,5 @@
+reforço: Tipo de treinamento intermediário entre o supervisionado e não supervisionado - Processo de tentativa e erro que procura maximizar sinal de reforço;
+
+supervisionado: Consiste em apresentar um padrão a ser reconhecido juntamente com a resposta que o sistema deve fornecer ao deparar-se novamente com esse padrão;
+
+semi-supervisionado: Combina uma pequena quantidade de amostras classificadas com um grande número de amostras não classificadas para produzir melhores classificadores;
