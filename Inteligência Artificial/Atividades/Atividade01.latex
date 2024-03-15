@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+
+\begin{document}
+
+\section*{Questão 1:}
+
+\begin{itemize}[label=--,left=0pt]
+    \item \textbf{Reforço:} Tipo de treinamento intermediário entre o supervisionado e não supervisionado - Processo de tentativa e erro que procura maximizar sinal de reforço;
+    \item \textbf{Supervisionado:} Consiste em apresentar um padrão a ser reconhecido juntamente com a resposta que o sistema deve fornecer ao deparar-se novamente com esse padrão;
+    \item \textbf{Semi-Supervisionado:} Combina uma pequena quantidade de amostras classificadas com um grande número de amostras não classificadas para produzir melhores classificadores.
+\end{itemize}
+
+\section*{Questão 2:}
+
+\begin{enumerate}[label=(\alph*)]
+    \item Os modelos não precisam ser treinados, eles aprendem por conta própria.
+\end{enumerate}
+
+\section*{Questão 3:}
+
+Os problemas de classificação são aqueles em que a IA se preocupa em dizer a qual grupo uma determinada entrada pertence, já a regressão utiliza métodos estatísticos para uma aproximação.
+
+\textbf{Ex:}
+\begin{itemize}[label=--,left=0pt]
+    \item \textbf{Regressão:} Determinar quanto valerá uma determinada ação daqui a 2 meses;
+    \item \textbf{Classificação:} Dizer se esta ação irá cair ou subir.
+\end{itemize}
+
+\section*{Questão 4:}
+
+\textbf{Rótulos (Labels):}
+Os rótulos referem-se às categorias ou classes associadas a cada exemplo em um conjunto de dados. Em tarefas de aprendizado supervisionado, os rótulos são as respostas ou saídas desejadas que o modelo deve aprender a prever. Por exemplo, em um conjunto de dados de imagens de gatos e cachorros, os rótulos seriam "gato" e "cachorro".
+
+\textbf{Instâncias:}
+Instâncias são exemplos individuais ou observações em um conjunto de dados. Em um conjunto de dados de imagens, cada imagem seria uma instância. Em problemas de aprendizado de máquina, essas instâncias são usadas para treinar o modelo e avaliar seu desempenho.
+
+\textbf{Atributos:}
+Os atributos são características ou propriedades das instâncias que são relevantes para a tarefa em questão. Eles representam as diferentes variáveis ou aspectos que descrevem cada instância. Por exemplo, em um conjunto de dados de habitação, os atributos podem incluir o número de quartos, a localização, a metragem quadrada, etc.
+
+\textbf{Conjunto de Dados (Dataset):}
+Um conjunto de dados é uma coleção organizada de instâncias, onde cada instância possui um conjunto de atributos e, em tarefas supervisionadas, um rótulo associado. Conjuntos de dados são utilizados para treinar, validar e testar modelos de aprendizado de máquina. Eles são essenciais para o desenvolvimento e avaliação de algoritmos de aprendizado.
+
+\section*{Questão 5:}
+
+A precisão dos dados.
+
+\section*{Questão 6:}
+
+
+\end{document}
